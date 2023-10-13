@@ -1,0 +1,8 @@
+<p>Inside name editor component</p>
+<h1>Reactive Form</h1>
+<p>Value of name FormControl: {{name.value}}</p>
+<label for="name">Name: </label>
+<input id="name" type="text" [formControl]="name">
+
+
+<button type="button" (click)="updateName()">Update Name</button>
